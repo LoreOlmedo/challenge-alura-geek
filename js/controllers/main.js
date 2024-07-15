@@ -1,4 +1,4 @@
-import { servicesProducts } from "../services/product-services";
+import { servicesProducts } from "../services/product-services"
 
 const productContainer = document.querySelector("[data-product]");
 const form = document.querySelector("[data-form]");
