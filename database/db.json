@@ -1,0 +1,35 @@
+{
+    "products": [
+      {
+        
+        "id": "250e",
+        "nombre": "Peluche de gato",
+        "precio": "83.25",
+        "imagen": "https://giftshopkawaii.cl/cdn/shop/files/IMG_8267_1800x.jpg?v=1690314023"
+      },
+      {
+        "id": "06f8",
+        "nombre": "Tostadora de Star Wars",
+        "precio": "150.25",
+        "imagen": "https://inusualdesign.com/wp-content/uploads/2017/12/1bd7_star_wars_toaster.jpg"
+      },
+      {
+        "id": "13c8",
+        "nombre": "Peluche de python",
+        "precio": "78.22",
+        "imagen": "https://m.media-amazon.com/images/I/71JwP+sQGeL._AC_UF894,1000_QL80_DpWeblab_.jpg"
+      },
+      {
+        "id": "a119",
+        "nombre": "Camiseta selección Colombia 2024",
+        "precio": "150.68",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpUdliWuQO7oM_Lx9HXaBt_yOEGLFi9hgmlQ&s"
+      },
+      {
+        "id": "bccd",
+        "nombre": "Peluche de Super Mario Bros",
+        "precio": "1.0",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTHSER4_p40Ei1cGsD42WQp_BsgXzSWaX1kQ&s"
+      }
+    ]
+}

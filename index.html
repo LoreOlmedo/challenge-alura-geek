@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container">
+            <img src="/assets/logoFooter.png" alt="">
+        </div>
+    </header>
+    <main class="main-container">
+        <section>
+            <h1 class="title">Mis Productos:</h1>
+            <div data-product class="products-container">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="./assets/darth.png" alt="img">
+                    </div>
+
+                    <div class="card-container--info">
+                        <p>Dart Vader</p>
+                        <div class="card-container--value">
+                            <p>$ 20</p>
+                            <button class="delete-button" data-id="${id}">
+                                <img src="./assets/delete.png" alt="Eliminar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="title">Agregar Producto</h1>
+            <form class="form_container" data-form>
+                <input type="text" data-name placeholder="nombre...">
+                <input type="text" data-price placeholder="precio...">
+                <input type="text" data-image placeholder="imagen...">
+                <div class="buttom-container">
+                    <button type="submit" class="btn button-submit" id="button_enviar">Enviar...</button>
+                    <button type="reset" class="btn button-clear" id="button_limpiar"> Limpiar...</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer class="footer-container">
+        <section>
+            <img src="/assets/logoFooter.png" alt="">
+        </section>
+        <br>
+        <section>
+            <h2>Desarrollado por Lorena Olmedo</h2>
+            <p>ALURA LATAM - 2024</p>
+        </section>
+    </footer>
+    <script type="module" src="./js/controllers/main.js"></script>
+
+</body>
+
+</html>
